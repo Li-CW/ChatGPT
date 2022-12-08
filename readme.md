@@ -29,7 +29,7 @@
 2. Image 描述生成图片。
 3. .....
 
-**欢迎stra,fock**
+**欢迎stra,fork**
 
 
 
