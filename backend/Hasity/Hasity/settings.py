@@ -109,6 +109,10 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS =(os.path.join(BASE_DIR, "static"),)
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+OPEN_AI_KEY ="your key"
+
+
 # settings.py导入 my_set 中的代码，如果存在则使用，反之。位于末尾
 try:
     from Hasity.my_set import *
