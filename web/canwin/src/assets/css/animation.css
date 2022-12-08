@@ -1,0 +1,48 @@
+.fade-out {
+    animation: myfirst 0.3s;
+}
+
+@keyframes myfirst {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.flash {
+    animation: flash 0.5s;
+   
+}
+
+@keyframes flash {
+    0% {
+        opacity: 0;
+    }
+
+    32% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    67% {
+        opacity:1;
+    }
+    83% {
+        opacity:0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
