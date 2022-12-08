@@ -23,22 +23,6 @@ class ChatView(APIView):
                 'result': "我累了，休息了。等几分钟后再来问我。~~",
             })
         ans1 = response["choices"][0].text
-        tail = ans1[-1]; 
-        tail = ans1[-1]; 
-        ans1 = ans1[:-1]
-        ans1 = ans1.strip()
-        ans1 = ans1.strip('?')
-        ans1 = ans1.strip(';')
-        ans1 = ans1.strip('!')
-        ans1 = ans1.strip('.')
-        ans1 = ans1.strip('。')
-        ans1 = ans1.strip(',')
-        ans1 = ans1.strip('？')
-        ans1 = ans1.strip('，')
-        ans1 = ans1.strip('；')
-        ans1 = ans1.strip('！')
-        ans1 = ans1.strip()
-        ans1 = ans1 + tail
         return Response({
             'result': ans1,
         })
