@@ -15,7 +15,7 @@ class ChatView(APIView):
             model="text-davinci-003",
             prompt=request.data["question"],
             temperature=0.7,
-            max_tokens=4000,
+            max_tokens=3000,
             top_p=0.1,
             )
         except:
